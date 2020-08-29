@@ -8,38 +8,38 @@ include_directories(Dependencies/GLFW/include-mac)
 link_directories(Dependencies/GLFW/lib-macos)
 
 ADD_EXECUTABLE(program
-	FinalProject/src/imgui/imgui.cpp
-	FinalProject/src/imgui/imgui_demo.cpp
-	FinalProject/src/imgui/imgui_draw.cpp
-	FinalProject/src/imgui/imgui_impl_glfw.cpp
-	FinalProject/src/imgui/imgui_impl_opengl3.cpp
-	FinalProject/src/imgui/imgui_widgets.cpp
-	FinalProject/src/main.cpp
-	FinalProject/src/budget/student_account.cpp	
-	FinalProject/src/budget/calculate-ucs/calculate_base.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucr.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_uci.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucd.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucsc.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucm.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucsb.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucsd.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucla.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucb.cpp
+	budget-tracker/src/imgui/imgui.cpp
+	budget-tracker/src/imgui/imgui_demo.cpp
+	budget-tracker/src/imgui/imgui_draw.cpp
+	budget-tracker/src/imgui/imgui_impl_glfw.cpp
+	budget-tracker/src/imgui/imgui_impl_opengl3.cpp
+	budget-tracker/src/imgui/imgui_widgets.cpp
+	budget-tracker/src/main.cpp
+	budget-tracker/src/budget/student_account.cpp	
+	budget-tracker/src/budget/calculate-ucs/calculate_base.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucr.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_uci.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucd.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucsc.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucm.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucsb.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucsd.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucla.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucb.cpp
 )
 ADD_EXECUTABLE(test_program
 	tests/unit_tests.cpp
-	FinalProject/src/budget/student_account.cpp	
-	FinalProject/src/budget/calculate-ucs/calculate_base.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucr.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_uci.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucd.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucsc.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucm.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucsb.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucsd.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucla.cpp
-	FinalProject/src/budget/calculate-ucs/calculate_ucb.cpp
+	budget-tracker/src/budget/student_account.cpp	
+	budget-tracker/src/budget/calculate-ucs/calculate_base.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucr.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_uci.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucd.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucsc.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucm.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucsb.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucsd.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucla.cpp
+	budget-tracker/src/budget/calculate-ucs/calculate_ucb.cpp
 )
 
 
