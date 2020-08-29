@@ -6,7 +6,7 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master, ndeloney0/extra-funds, ndeloney0/progress, ndeloney0/unit-testing, ndeloney0/bugfixes, Merging, Cross-Platform-Integration ]
+    branches: [ master, bugfixes, progress, testing, merging, cpi ]
   pull_request:
     branches: [ master ]
 
