@@ -1,21 +1,21 @@
 #pragma once
 
-#include "../FinalProject/src/budget/calculate-ucs/calculate_base.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucr.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucb.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_uci.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucsc.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucsd.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucd.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucm.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucsb.hpp"
-#include "../FinalProject/src/budget/calculate-ucs/calculate_ucla.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_base.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucr.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucb.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_uci.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucsc.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucsd.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucd.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucm.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucsb.hpp"
+#include "../budget-tracker/src/budget/calculate-ucs/calculate_ucla.hpp"
 
 
-#include "../FinalProject/src/budget/student_account.hpp"
-#include "../FinalProject/src/budget/funds/funds_base.hpp"
-#include "../FinalProject/src/budget/funds/funds_loan.hpp"
-#include "../FinalProject/src/budget/funds/funds_monthly.hpp"
+#include "../budget-tracker/src/budget/student_account.hpp"
+#include "../budget-tracker/src/budget/funds/funds_base.hpp"
+#include "../budget-tracker/src/budget/funds/funds_loan.hpp"
+#include "../budget-tracker/src/budget/funds/funds_monthly.hpp"
 #include "gtest/gtest.h"
 
 
