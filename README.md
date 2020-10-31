@@ -3,7 +3,6 @@
  
  > Authors: [Nicholas Deloney](github.com/ndeloney0), [Adam Kozlowski](github.com/templar)
  
- All backend work done by Nick. All GUI work done by Adam, including wrapping the backend. Cross platform integration was worked on by both authors.
  
 
 ## Project Description
