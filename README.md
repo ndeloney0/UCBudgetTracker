@@ -1,5 +1,5 @@
 ![CI](https://github.com/cs100/final-project-blueprint/workflows/CI/badge.svg?branch=master)
-# UC Student Budget Tracker - College Project
+# UC Student Budget Tracker - Small College Project
  
  > Authors: [Nicholas Deloney](github.com/ndeloney0), [Adam Kozlowski](github.com/templar)
  
